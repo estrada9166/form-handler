@@ -1,4 +1,4 @@
-# Create a form handler with redux, react-bootstrap and Next.js
+# Form handler with redux, react-bootstrap and Next.js
 
 #### [Demo](https://redux-form-vpqmfjlbmb.now.sh/)
 
