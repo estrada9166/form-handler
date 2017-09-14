@@ -40,6 +40,9 @@ var _store = require('../store');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/alejandroestrada/Documents/Code/next.js/examples/handle-form/pages/index.js?entry';
+
+
 var Index = function (_Component) {
   (0, _inherits3.default)(Index, _Component);
 
@@ -52,7 +55,17 @@ var Index = function (_Component) {
   (0, _createClass3.default)(Index, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', null, _react2.default.createElement(_components2.default, null));
+      return _react2.default.createElement('div', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }, _react2.default.createElement(_components2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        }
+      }));
     }
   }]);
 
@@ -60,3 +73,4 @@ var Index = function (_Component) {
 }(_react.Component);
 
 exports.default = (0, _nextReduxWrapper2.default)(_store.initStore, null)(Index);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiQ29tcG9uZW50Iiwid2l0aFJlZHV4IiwiTWFpbiIsImluaXRTdG9yZSIsIkluZGV4Il0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLEFBQU8sQUFBUzs7OztBQUNoQixBQUFPOzs7O0FBRVAsQUFBTzs7OztBQUVQLEFBQVM7Ozs7Ozs7SUFHSCxBOzs7Ozs7Ozs7Ozs2QkFDSyxBQUNQOzZCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQ0U7QUFERjtBQUFBLE9BQUEsa0JBQ0UsQUFBQzs7b0JBQUQ7c0JBRkosQUFDRSxBQUNFLEFBR0w7QUFISztBQUFBOzs7OztBQUpZLEEsQUFVcEI7O2tCQUFlLEFBQVUsa0RBQVYsQUFBcUIsTUFBcEMsQUFBZSxBQUEyQiIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMvYWxlamFuZHJvZXN0cmFkYS9Eb2N1bWVudHMvQ29kZS9uZXh0LmpzL2V4YW1wbGVzL2hhbmRsZS1mb3JtIn0=
