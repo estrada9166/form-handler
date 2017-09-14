@@ -38,6 +38,9 @@ var _reactRedux = require('react-redux');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/alejandroestrada/Documents/Code/next.js/examples/handle-form/components/DisplayForm.js';
+
+
 var DisplayForm = function (_Component) {
   (0, _inherits3.default)(DisplayForm, _Component);
 
@@ -52,7 +55,26 @@ var DisplayForm = function (_Component) {
     value: function render() {
       var state = this.props.state;
 
-      return _react2.default.createElement('div', null, _react2.default.createElement(_reactBootstrap.Row, null, _react2.default.createElement(_reactBootstrap.Col, { lg: 8, lgOffset: 2 }, _react2.default.createElement('pre', null, (0, _stringify2.default)(state, null, 2)))));
+      return _react2.default.createElement('div', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        }
+      }, _react2.default.createElement(_reactBootstrap.Row, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        }
+      }, _react2.default.createElement(_reactBootstrap.Col, { lg: 8, lgOffset: 2, __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        }
+      }, _react2.default.createElement('pre', {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        }
+      }, (0, _stringify2.default)(state, null, 2)))));
     }
   }]);
 
@@ -66,3 +88,4 @@ var mapStateToProps = function mapStateToProps(state) {
 };
 
 exports.default = (0, _reactRedux.connect)(mapStateToProps)(DisplayForm);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvRGlzcGxheUZvcm0uanMiXSwibmFtZXMiOlsiUmVhY3QiLCJDb21wb25lbnQiLCJDb2wiLCJSb3ciLCJjb25uZWN0IiwiRGlzcGxheUZvcm0iLCJzdGF0ZSIsInByb3BzIiwibWFwU3RhdGVUb1Byb3BzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPLEFBQVE7Ozs7QUFDZixBQUFTLEFBQUs7O0FBQ2QsQUFBUzs7Ozs7OztJQUVILEE7Ozs7Ozs7Ozs7OzZCQUNLO1VBQUEsQUFDQyxRQUFVLEtBRFgsQUFDZ0IsTUFEaEIsQUFDQyxBQUNSOzs2QkFDRSxjQUFBOztvQkFBQTtzQkFBQSxBQUNFO0FBREY7QUFBQSxPQUFBLGtCQUNFLEFBQUM7O29CQUFEO3NCQUFBLEFBQ0U7QUFERjtBQUFBLHlCQUNFLEFBQUMscUNBQUksSUFBTCxBQUFTLEdBQUcsVUFBWixBQUFzQjtvQkFBdEI7c0JBQUEsQUFDRTtBQURGO3lCQUNFLGNBQUE7O29CQUFBO3NCQUFBLEFBQU07QUFBTjtBQUFBLGtDQUFNLEFBQWUsT0FBZixBQUFzQixNQUpwQyxBQUNFLEFBQ0UsQUFDRSxBQUNFLEFBQU0sQUFBNEIsQUFLM0M7Ozs7O0FBWnVCLEE7O0FBZTFCLElBQU0sa0JBQWtCLFNBQWxCLEFBQWtCLHVCQUFTLEFBQy9COztXQUFBLEFBQU8sQUFHUjtBQUhRLEFBQ0w7QUFGSixBQU1BOztrQkFBZSx5QkFBQSxBQUFRLGlCQUF2QixBQUFlLEFBQXlCIiwiZmlsZSI6IkRpc3BsYXlGb3JtLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9hbGVqYW5kcm9lc3RyYWRhL0RvY3VtZW50cy9Db2RlL25leHQuanMvZXhhbXBsZXMvaGFuZGxlLWZvcm0ifQ==
