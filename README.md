@@ -1,6 +1,6 @@
 # Form handler with redux, react-bootstrap and Next.js
 
-#### [Demo](https://redux-form-vpqmfjlbmb.now.sh/)
+#### [Demo](https://redux-form-bugjunbzww.now.sh)
 
 ## How it works
 
